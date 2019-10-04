@@ -8,7 +8,7 @@ pipeline {
         }
         stage('start') {
             steps {
-                sh 'npm start'
+                sh 'export BUILD_ID=dontKillMe; npm start &'
             }
         }
     }
