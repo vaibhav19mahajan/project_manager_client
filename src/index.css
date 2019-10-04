@@ -11,3 +11,98 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.btn-hrz-grp .btn {
+  margin-left: 10px;
+  width: 100px;
+}
+
+.btn-ver-grp .btn {
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  width: 100px;
+}
+
+
+.pm-form-container {
+  border: 1px solid #d4d4d4;
+  padding: 20px;
+}
+
+.pm-sort-container {
+  padding-bottom: 15px;
+}
+
+.pm-form-label {
+  min-width: 150px;
+  display: inline-block;
+}
+
+.pm-form-value {
+  color: #585858;
+}
+
+.pm-form-row {
+  padding: 10px;
+}
+
+.pm-search-conatiner .form-control{
+  padding: 0px 35px;
+}
+
+.pm-search-conatiner .pm-search-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+
+.pm-search-conatiner .pm-close-icon {
+  position: absolute;
+  right: 2px;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.pm-pl-50 {
+  padding-left: 50px;
+}
+
+.pm-pl-30 {
+  padding-left: 30px;
+}
+
+.pm-pl-35 {
+  padding-left: 35px;
+}
+
+.pm-list-priority {
+  border-left: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+}
+
+.pm-border-right {
+  border-right: 1px solid #d4d4d4;
+}
+
+.pm-cursor {
+  cursor: pointer;
+}
+
+.modal-content {
+  border-radius: 0px;
+}

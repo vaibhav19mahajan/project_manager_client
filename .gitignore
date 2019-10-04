@@ -1,23 +1,48 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# testing
+# More ignore patterns from SVN collected using `svn pg -R svn:ignore` on trunk
+/.project
+/.settings
+/.classpath
+/.tern-project
+/.gradle
+/nbproject
 /coverage
+/build.xml
+/.svn
 
-# production
+# Build process files
+/dist
 /build
+/temp
+/bin
+/report # e2e reports
+coverage
+/*.tgz
+/*.zip
+.tscache
+log
+
+# Node stuff
+node_modules
+npm-debug.log
+package-lock.json
+
+# IDE - VSCode
+.vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - webstorm
+.idea
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+/.sass-cache
+/*.log*
+/*.txt
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
